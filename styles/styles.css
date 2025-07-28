@@ -4,6 +4,10 @@ header {
   align-items: center;
   padding: 30px 80px;
 }
+.head-logo img{
+  height: 60px;
+  width: auto;
+}
 
 nav ul {
   display: flex;
@@ -379,6 +383,9 @@ nav ul li a.active {
   .subscribe-section h2 {
     font-size: 24px;
   }
+  .products-section{
+    padding-top: 0px;
+  }
 
   .product-grid {
     grid-template-columns: repeat(2, 1fr);
@@ -387,21 +394,28 @@ nav ul li a.active {
   .deal-card,
   .large-card {
     width: 100%;
-    height: auto;
-    padding: 20px;
+    padding: 0px;
+    width: 500px;
+    height: 260px;
   }
-
-  .large-card {
-    height: 200px;
+  }
+  .badge{
+    display: none;
   }
 
   .flower-section {
     flex-direction: column;
-
+    margin: 10px;
+  }
   .flower-image img:first-child {
     width: 100%;
   }
-
+  .flower-content h2 {
+    margin-bottom: 0px;
+  }
+  .flower-content ul {
+    padding: 10px;
+  }
   .badge {
     display: none; /* Hides badge on small screens */
   }
@@ -417,6 +431,17 @@ nav ul li a.active {
   .footer {
     padding: 30px 20px;
   }
+  .footer-container {
+    flex-direction: column;
+  }
+  .footer-links{
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .footer-left .logo {
+  height: 100px;
+  margin-bottom: 3px;
 }
 
 

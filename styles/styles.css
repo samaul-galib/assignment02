@@ -354,6 +354,25 @@ nav ul li a.active {
   cursor: pointer;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (max-width: 576px) {
   .nav-item{
     display: none;
@@ -391,13 +410,11 @@ nav ul li a.active {
     grid-template-columns: repeat(2, 1fr);
   }
 
-  .deal-card,
-  .large-card {
+  .deal-card{
     width: 100%;
     padding: 0px;
     width: 500px;
     height: 260px;
-  }
   }
   .badge{
     display: none;
@@ -444,5 +461,5 @@ nav ul li a.active {
   margin-bottom: 3px;
 }
 
-
+}
 
